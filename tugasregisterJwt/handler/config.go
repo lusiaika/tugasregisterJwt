@@ -22,7 +22,7 @@ type configuration struct {
 	// Raw file data to avoid re-reading of configuration file
 	// It's reset after config is parsed
 	ConnectionString sqlDb  `yaml:"sqldatabase"`
-	SecretKey        string `yaml:"lusia"`
+	SecretKey        string `yaml:"secretKey"`
 }
 
 var config = configuration{}
